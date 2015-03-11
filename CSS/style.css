@@ -1,0 +1,28 @@
+body {
+	font-family: 'Rajdhani', sans-serif;
+	background-color: #99ccff;
+}
+.header {
+	text-align: center;
+	margin: 0 auto;
+	
+}
+h1 {
+	color: #2f4f4f;
+	font-size: 10em;
+	margin-top: auto;
+	margin-bottom: -4px;
+}
+.add {
+	text-align: center;
+
+}
+.list {
+	padding-left: 449px;
+  color: #FFF;
+}
+li {
+	list-style: none;
+	font-size: 3em;
+}
+
