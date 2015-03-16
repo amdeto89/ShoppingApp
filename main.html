@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="java/script.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Rajdhani:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
-<div class="header">
-<h1>Shopping List</h1>
-</div>
-<div class="list">
-	<ul>
-	<li>Bread</li>
-	<li>Milk</li>
-	<li><strike>Cereal</strike></li>
-	<li><strike>Coffee</strike></li>
-	</ul>
-</div>
 
-	
+
+<body>
+<section id="task-form" style="text-align: center;">
+<div id="container">
+    <header>
+         <H1>Shopping List</H1>
+    </header>
+
+    <input id="text" type= "text" name="sumbitText" placeholder="Add an item here..." style="width:300px;">
+    <button id="addItem">Add Item</button>
+
+    <ul id="shoppingList">
+        <li><input type="checkbox"/>Apples</li>
+        <li><input type="checkbox"/>Bananas</li>
+        <li><input type="checkbox"/>Grapes</li>
+    </ul>
+</div>
+</section>
 </body>
 </html>
