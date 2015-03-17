@@ -21,6 +21,10 @@ $(document).ready(function () {
                 $this.parent().removeClass('completed');
             }
         });
+    $('#RemoveItem').click(function() {
+    	$('ul').empty();
+    
+    });
 
 });
 
