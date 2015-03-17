@@ -13,7 +13,7 @@ $(document).ready(function () {
         $('#shoppingList').append('<li><input type="checkbox"/>' + toAdd + '</li>');
     });
 
-    $("input:checkbox").click(function () {
+    $("#shoppingList").on('click','input:checkbox', function () {
             var $this = $(this);
             if (this.checked) {
                 $this.parent().addClass('completed');
